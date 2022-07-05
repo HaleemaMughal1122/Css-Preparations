@@ -6,5 +6,6 @@ button {
   outline: none;
   height: 40px;
   width: 100%;
+  cursor: pointer;
   margin: 30px;
 }
