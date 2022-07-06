@@ -1,14 +1,10 @@
 import "./App.css";
-import Button from "./components/button";
-import HeaderFooter from "./components/header-footer";
+import FlexComponent from "./components/flex";
 
 function App() {
   return (
     <>
-      <div className="App">
-        <Button />
-      </div>
-      <div>{/* <HeaderFooter/> */}</div>
+      <FlexComponent />
     </>
   );
 }

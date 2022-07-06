@@ -9,3 +9,10 @@ button {
   cursor: pointer;
   margin: 30px;
 }
+
+@media screen and (max-width: 600px) {
+  button {
+    background-color: red;
+    transform: rotate(45deg);
+  }
+}
